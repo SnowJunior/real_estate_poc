@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:real_estate_test_poc/presentation/screens/home_screen.dart';
+import 'package:real_estate_test_poc/presentation/screens/maps_screen.dart';
 import 'package:real_estate_test_poc/theme/theme.dart';
 import 'package:real_estate_test_poc/viewmodels/bottom_navigation_viewmodel.dart';
 import 'package:stacked/stacked.dart';
@@ -15,7 +16,7 @@ class BottomNavigation extends StatefulWidget {
 
 class _BottomNavigationState extends State<BottomNavigation> {
   static final List<Widget> _pages = <Widget>[
-    Container(),
+    const MapsScreen(),
     Container(),
     const HomeScreen(),
     Container(),
