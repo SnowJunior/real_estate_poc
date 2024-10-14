@@ -1,16 +1,28 @@
-# real_estate_test_poc
+# Real Estate App
 
-A new Flutter project.
+This project shows the design, architecture approach and implementation skills for an app that enables users to quickly find real estate for rent and purchase.
+
+[View Designs on Dribbble](https://dribbble.com/shots/23780608-Real-Estate-App)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with this project, ensure you have the following tools installed on your machine:
 
-A few resources to get you started if this is your first Flutter project:
+- **Flutter** (version >=3.22.0 <3.22.2)
+- **Dart** (version >=3.4.3 <4.0.0)
+- **Android Studio**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/SnowJunior/real_estate_poc.git
+   cd real_estate_poc
+   
+2. **Install Dependencies**
+   ```bash
+   flutter pub get
+   flutter pub run build_runner build
+3. **Running the App**
+   ```bash
+   flutter run
