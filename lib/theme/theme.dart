@@ -20,13 +20,13 @@ class Pallete {
     iconTheme: const IconThemeData(color: Colors.white),
     textTheme: const TextTheme(
       bodyMedium: TextStyle(
-        fontFamily: 'Nunito',
+        fontFamily: 'Euclid',
         color: secondaryColor,
         fontSize: 16,
         fontWeight: FontWeight.normal,
       ),
       displayLarge: TextStyle(
-        fontFamily: 'Nunito',
+        fontFamily: 'Euclid',
         color: secondaryColor,
         fontSize: 24,
         fontWeight: FontWeight.bold,

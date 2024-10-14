@@ -50,15 +50,15 @@ flutter:
     - assets/images/
 
   fonts:
-    - family: Nunito
+    - family: Euclid
       fonts:
-        - asset: assets/fonts/NunitoSans_10pt-Regular.ttf
-        - asset: assets/fonts/NunitoSans_10pt-Medium.ttf
-        - asset: assets/fonts/NunitoSans_10pt-Bold.ttf
+        - asset: assets/fonts/Euclid-Circular-A-Regular.ttf
+        - asset: assets/fonts/Euclid-Circular-A-Medium.ttf
+        - asset: assets/fonts/Euclid-Circular-A-Bold.ttf
           weight: 500
-        - asset: assets/fonts/NunitoSans_10pt-SemiBold.ttf
+        - asset: assets/fonts/Euclid-Circular-A-SemiBold.ttf
           weight: 400
-        - asset: assets/fonts/NunitoSans_10pt-Light.ttf
+        - asset: assets/fonts/Euclid-Circular-A-Light.ttf
 
 flutter_gen:
   output: lib/gen/
